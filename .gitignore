@@ -21,3 +21,5 @@
 *.app
 */Binaries/
 */Intermediate/
+/UnrealProject/Plugins/*/Binaries/
+/UnrealProject/Plugins/*/Intermediate/
