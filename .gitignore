@@ -28,3 +28,8 @@
 *.sln
 *.suo
 *.sdf
+*.opensdf
+
+#Unreal files
+*.log
+*.umap

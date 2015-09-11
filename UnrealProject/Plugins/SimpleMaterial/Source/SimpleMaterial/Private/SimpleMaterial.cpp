@@ -9,8 +9,12 @@
 void FSimpleMaterialModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+	UE_LOG(LogTemp, Warning, TEXT("Starting SimpleMaterial plugin"));
 	
-	
+	//spawn simple sphere
+	//USimpleSphere sphere;
+	//sphere.getText();
+	//assert(sphere.getText());
 }
 
 void FSimpleMaterialModule::ShutdownModule()
@@ -20,6 +24,7 @@ void FSimpleMaterialModule::ShutdownModule()
 	
 	
 }
+
 
 #undef LOCTEXT_NAMESPACE
 	
