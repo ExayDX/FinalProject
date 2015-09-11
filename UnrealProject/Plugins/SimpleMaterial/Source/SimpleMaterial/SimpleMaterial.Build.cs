@@ -29,6 +29,7 @@ public class SimpleMaterial : ModuleRules
 			new string[]
 			{
 				"Core",
+                "CoreUObject"
 				
 				// ... add other public dependencies that you statically link with here ...
 			}
