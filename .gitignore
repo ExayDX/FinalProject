@@ -23,3 +23,8 @@
 */Intermediate/
 /UnrealProject/Plugins/*/Binaries/
 /UnrealProject/Plugins/*/Intermediate/
+
+# Visual Studio files
+*.sln
+*.suo
+*.sdf
