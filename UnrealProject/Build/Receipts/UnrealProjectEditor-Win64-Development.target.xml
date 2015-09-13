@@ -110,12 +110,12 @@
     <BuildProduct Path="$(EngineDir)\Plugins\Slate\SlateRemote\Binaries\Win64\UE4Editor-SlateRemote.dll" Type="DynamicLibrary" />
     <BuildProduct Path="$(EngineDir)\Plugins\Slate\SlateRemote\Binaries\Win64\UE4Editor-SlateRemote.pdb" Type="SymbolFile" />
     <BuildProduct Path="$(EngineDir)\Plugins\Slate\SlateRemote\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlateRemote.lib" Type="ImportLibrary" />
-    <BuildProduct Path="$(ProjectDir)\Plugins\PhongShader\Binaries\Win64\UE4Editor-PhongShader.dll" Type="DynamicLibrary" />
-    <BuildProduct Path="$(ProjectDir)\Plugins\PhongShader\Binaries\Win64\UE4Editor-PhongShader.pdb" Type="SymbolFile" />
-    <BuildProduct Path="$(ProjectDir)\Plugins\PhongShader\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PhongShader.lib" Type="ImportLibrary" />
-    <BuildProduct Path="$(ProjectDir)\Plugins\VaOcean\Binaries\Win64\UE4Editor-VaOceanPlugin.dll" Type="DynamicLibrary" />
-    <BuildProduct Path="$(ProjectDir)\Plugins\VaOcean\Binaries\Win64\UE4Editor-VaOceanPlugin.pdb" Type="SymbolFile" />
-    <BuildProduct Path="$(ProjectDir)\Plugins\VaOcean\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VaOceanPlugin.lib" Type="ImportLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\PixelShader\Binaries\Win64\UE4Editor-PixelShader.dll" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\PixelShader\Binaries\Win64\UE4Editor-PixelShader.pdb" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\PixelShader\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PixelShader.lib" Type="ImportLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\ShaderCopyHelper\Binaries\Win64\UE4Editor-ShaderCopyHelper.dll" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\ShaderCopyHelper\Binaries\Win64\UE4Editor-ShaderCopyHelper.pdb" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\ShaderCopyHelper\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ShaderCopyHelper.lib" Type="ImportLibrary" />
     <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-UnrealProject.dll" Type="DynamicLibrary" />
     <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-UnrealProject.pdb" Type="SymbolFile" />
     <BuildProduct Path="$(ProjectDir)\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealProject.lib" Type="ImportLibrary" />
