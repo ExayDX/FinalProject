@@ -1,0 +1,58 @@
+﻿[2015.09.13-20.45.16:011][  0]Log file open, 09/13/15 16:45:16
+[2015.09.13-20.45.16:011][  0]LogInit:Display: Running engine for game: UnrealProject
+[2015.09.13-20.45.16:013][  0]LogInit:Display: RandInit(-1905204332) SRandInit(-1905204332).
+[2015.09.13-20.45.16:013][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.13-20.45.16:013][  0]LogStats: Stats thread started at 0.242484
+[2015.09.13-20.45.16:013][  0]ShaderCopyHelper: Shader Copy Helper Plugin loaded!
+[2015.09.13-20.45.16:014][  0]ShaderCopyHelper: Copying project shader files to Engine/Shaders/
+[2015.09.13-20.45.16:014][  0]LogInit: Version: 4.9.0-0+++depot+UE4-Releases+4.9
+[2015.09.13-20.45.16:014][  0]LogInit: API Version: 0
+[2015.09.13-20.45.16:015][  0]LogInit: Compiled (64-bit): Sep 12 2015 22:12:37
+[2015.09.13-20.45.16:015][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.13-20.45.16:015][  0]LogInit: Build Configuration: Development
+[2015.09.13-20.45.16:015][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.13-20.45.16:016][  0]LogInit: Command line: 
+[2015.09.13-20.45.16:016][  0]LogInit: Base directory: C:/Program Files/Epic Games/UnrealEngine/Engine/Binaries/Win64/
+[2015.09.13-20.45.16:016][  0]LogInit: Rocket: 0
+[2015.09.13-20.45.16:039][  0]LogInit: Using libcurl 7.41.0
+[2015.09.13-20.45.16:039][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.13-20.45.16:039][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.13-20.45.16:040][  0]LogInit:  - other features:
+[2015.09.13-20.45.16:040][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.13-20.45.16:040][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.13-20.45.16:040][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.13-20.45.16:041][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.13-20.45.16:041][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.13-20.45.16:041][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.13-20.45.16:041][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.13-20.45.16:042][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.13-20.45.16:042][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.13-20.45.16:042][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.13-20.45.16:322][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.13-20.45.16:332][  0]LogInit: Object subsystem initialized
+[2015.09.13-20.45.16:335][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.13-20.45.16:335][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.13-20.45.16:364][  0]LogInit: Computer: EXAYDX
+[2015.09.13-20.45.16:364][  0]LogInit: User: Myriam
+[2015.09.13-20.45.16:364][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.13-20.45.16:365][  0]LogInit: High frequency timer resolution =2.143479 MHz
+[2015.09.13-20.45.16:365][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.13-20.45.16:365][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.13-20.45.16:366][  0]LogMemory: Process Physical Memory: 52.19 MB used, 52.19 MB peak
+[2015.09.13-20.45.16:366][  0]LogMemory: Process Virtual Memory: 57.11 MB used, 57.11 MB peak
+[2015.09.13-20.45.16:366][  0]LogMemory: Physical Memory: 7598.24 MB used, 16287.06 MB total
+[2015.09.13-20.45.16:367][  0]LogMemory: Virtual Memory: 353.53 MB used, 134217728.00 MB total
+[2015.09.13-20.45.17:579][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2015.09.13-20.45.18:526][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M      (Feature Level 11_0)
+[2015.09.13-20.45.18:526][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.09.13-20.45.18:545][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.13-20.45.18:545][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.09.13-20.45.18:598][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.13-20.45.18:598][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.13-20.45.18:599][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.13-20.45.18:606][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.13-20.45.18:607][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.13-20.45.18:656][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.13-20.45.18:676][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/Intermediate/Shaders/WorkingDirectory/11848/).
+[2015.09.13-20.45.18:677][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/Intermediate/Shaders/tmp/4A2256D14984A3109A8E11AB0ADE2E51/'.
+[2015.09.13-20.45.18:677][  0]LogShaderCompilers:Display: Using Local Shader Compiler.

@@ -1,0 +1,123 @@
+﻿[2015.09.13-20.51.39:404][  0]Log file open, 09/13/15 16:51:39
+[2015.09.13-20.51.39:404][  0]LogInit:Display: Running engine for game: UnrealProject
+[2015.09.13-20.51.39:405][  0]LogInit:Display: RandInit(-1079760964) SRandInit(-1079760964).
+[2015.09.13-20.51.39:405][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.13-20.51.39:406][  0]LogStats: Stats thread started at 0.151210
+[2015.09.13-20.51.39:407][  0]ShaderCopyHelper: Shader Copy Helper Plugin loaded!
+[2015.09.13-20.51.39:407][  0]ShaderCopyHelper: Copying project shader files to Engine/Shaders/
+[2015.09.13-20.51.39:407][  0]LogInit: Version: 4.9.0-0+++depot+UE4-Releases+4.9
+[2015.09.13-20.51.39:407][  0]LogInit: API Version: 0
+[2015.09.13-20.51.39:408][  0]LogInit: Compiled (64-bit): Sep 12 2015 22:12:37
+[2015.09.13-20.51.39:408][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.13-20.51.39:408][  0]LogInit: Build Configuration: Development
+[2015.09.13-20.51.39:408][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.13-20.51.39:409][  0]LogInit: Command line: 
+[2015.09.13-20.51.39:409][  0]LogInit: Base directory: C:/Program Files/Epic Games/UnrealEngine/Engine/Binaries/Win64/
+[2015.09.13-20.51.39:409][  0]LogInit: Rocket: 0
+[2015.09.13-20.51.39:432][  0]LogInit: Using libcurl 7.41.0
+[2015.09.13-20.51.39:432][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.13-20.51.39:433][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.13-20.51.39:433][  0]LogInit:  - other features:
+[2015.09.13-20.51.39:433][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.13-20.51.39:434][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.13-20.51.39:434][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.13-20.51.39:434][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.13-20.51.39:434][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.13-20.51.39:435][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.13-20.51.39:435][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.13-20.51.39:435][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.13-20.51.39:436][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.13-20.51.39:436][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.13-20.51.39:461][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.13-20.51.39:468][  0]LogInit: Object subsystem initialized
+[2015.09.13-20.51.39:470][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.13-20.51.39:471][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.13-20.51.39:482][  0]LogInit: Computer: EXAYDX
+[2015.09.13-20.51.39:483][  0]LogInit: User: Myriam
+[2015.09.13-20.51.39:483][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.13-20.51.39:483][  0]LogInit: High frequency timer resolution =2.143479 MHz
+[2015.09.13-20.51.39:484][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.13-20.51.39:484][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.13-20.51.39:484][  0]LogMemory: Process Physical Memory: 52.22 MB used, 52.22 MB peak
+[2015.09.13-20.51.39:484][  0]LogMemory: Process Virtual Memory: 57.11 MB used, 57.11 MB peak
+[2015.09.13-20.51.39:485][  0]LogMemory: Physical Memory: 8599.90 MB used, 16287.06 MB total
+[2015.09.13-20.51.39:485][  0]LogMemory: Virtual Memory: 353.53 MB used, 134217728.00 MB total
+[2015.09.13-20.51.40:349][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2015.09.13-20.51.41:146][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M      (Feature Level 11_0)
+[2015.09.13-20.51.41:146][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.09.13-20.51.41:166][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.13-20.51.41:166][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.09.13-20.51.41:171][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.13-20.51.41:171][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.13-20.51.41:172][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.13-20.51.41:180][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.13-20.51.41:181][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.13-20.51.41:250][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.13-20.51.41:269][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/Intermediate/Shaders/WorkingDirectory/12052/).
+[2015.09.13-20.51.41:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/Intermediate/Shaders/tmp/92DFC0FA4A1D7A701AC84F88DEF1ADF9/'.
+[2015.09.13-20.51.41:270][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.13-20.51.42:952][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.13-20.51.42:966][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.13-20.51.42:985][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.13-20.51.43:000][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.13-20.51.43:015][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.13-20.51.43:032][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.13-20.51.43:045][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.13-20.51.43:060][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.13-20.51.43:080][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.13-20.51.43:106][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.13-20.51.43:125][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.13-20.51.43:144][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.13-20.51.43:158][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.13-20.51.43:210][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.13-20.51.43:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.13-20.51.43:424][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.13-20.51.43:476][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB ../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/DerivedDataCache/Boot.ddc.
+[2015.09.13-20.51.43:479][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/DerivedDataCache/Boot.ddc
+[2015.09.13-20.51.43:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.13-20.51.43:480][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.13-20.51.43:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.13-20.51.43:481][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.09.13-20.51.43:495][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.09.13-20.51.43:495][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.09.13-20.51.43:496][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.09.13-20.51.43:506][  0]LogShaders: Verifying Global Shaders for PCD3D_SM5
+[2015.09.13-20.51.43:506][  0]LogShaders:Warning: 	Empty global shader map, recompiling all global shaders
+[2015.09.13-20.51.44:496][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.13-20.51.44:502][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.13-20.51.44:734][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.13-20.51.44:734][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.13-20.51.45:197][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.13-20.52.19:432][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.13-20.52.20:117][  0]LogAssetRegistry: FAssetRegistry took 0.0120 seconds to start up
+[2015.09.13-20.52.20:724][  0]SourceControl: Info Source control is disabled
+[2015.09.13-20.52.20:747][  0]SourceControl: Info Source control is disabled
+[2015.09.13-20.52.20:784][  0]SourceControl: Info Source control is disabled
+[2015.09.13-20.52.20:828][  0]SourceControl: Info Source control is disabled
+[2015.09.13-20.52.21:994][  0]LogObj: 28358 objects as part of root set at end of initial load.
+[2015.09.13-20.52.21:995][  0]LogUObjectAllocator: 6039608 out of 0 bytes used by permanent object pool.
+[2015.09.13-20.52.22:247][  0]LogEngine: Initializing Engine...
+[2015.09.13-20.52.22:252][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.13-20.52.22:261][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.13-20.52.22:508][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.13-20.52.22:523][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.13-20.52.22:919][  0]LogInit: FAudioDevice initialized.
+[2015.09.13-20.52.22:952][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB ../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/DerivedDataCache/Boot.ddc.
+[2015.09.13-20.52.22:960][  0]LogInit: Texture streaming: Enabled
+[2015.09.13-20.52.22:982][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.13-20.52.22:983][  0]LogAnalytics: [UEEditor.UnrealEngine.Release] APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.9.0-0+++depot+UE4-Releases+4.9
+[2015.09.13-20.52.22:983][  0]LogAnalytics: [UEEditor.UnrealEngine.Release] SetUserId b937c8bb44ffd6bca5db4cb087d12289|ae6541680da5494ea73e1894fa969d0a|ef05c746-df3b-4785-b67c-17687807354f
+[2015.09.13-20.52.22:984][  0]LogAnalytics: [UEEditor.UnrealEngine.Release] AnalyticsET::StartSession
+[2015.09.13-20.52.23:011][  0]LogInit: Transaction tracking system initialized
+[2015.09.13-20.52.23:139][  0]BlueprintLog: New page: Editor Load
+[2015.09.13-20.52.23:662][  0]LocalizationService: Info Localization service is disabled
+[2015.09.13-20.52.24:361][  0]LogConsoleResponse:Display: 
+[2015.09.13-20.52.25:060][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.13-20.52.25:492][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/Content/' took 0.03s
+[2015.09.13-20.52.25:525][  0]SourceControl: Info Source control is disabled
+[2015.09.13-20.52.25:526][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Myriam/Documents/Universite/S-A15/FinalProject-master/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.13-20.52.25:527][  0]LightingResults: New page: Lighting Build
+[2015.09.13-20.52.25:531][  0]MapCheck: New page: Map Check
+[2015.09.13-20.52.25:532][  0]LightingResults: New page: Lighting Build
+[2015.09.13-20.52.25:552][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000064BDB8A160
+[2015.09.13-20.52.26:645][  0]LogAIModule: Creating AISystem fo
