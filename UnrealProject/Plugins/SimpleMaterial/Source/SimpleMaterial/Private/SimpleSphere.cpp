@@ -8,7 +8,7 @@ ASimpleSphere::ASimpleSphere(const FObjectInitializer& objectInitializer):
 {
 	UE_LOG(LogTemp, Warning, TEXT("Im a sphere!"));
 
-	// We need a scene component to
+	// We need a scene component to represent the sphere
 	USphereComponent* SceneComponent = objectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("SceneComp"));
 	RootComponent = SceneComponent;
 	RootComponent->Mobility = EComponentMobility::Static;
