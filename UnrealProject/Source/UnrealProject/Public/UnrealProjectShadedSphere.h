@@ -14,6 +14,8 @@ class UNREALPROJECT_API AUnrealProjectShadedSphere : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AUnrealProjectShadedSphere();
+	AUnrealProjectShadedSphere(const FObjectInitializer& objectInitializer);
+
 
 	virtual void BeginPlay() override; // Called when the game starts or when spawned 
 	virtual void BeginDestroy() override; // Called when the game ends 
@@ -30,6 +32,7 @@ public :
 
 private : 
 	FPixelShaderUsageExample* PixelShading;
+	UStaticMeshComponent* m_sphereVisual;
 
 	void SavePixelShaderOutput(); 
 	
