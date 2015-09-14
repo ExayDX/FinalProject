@@ -12,7 +12,9 @@ public class UnrealProject : ModuleRules
             "Core", 
             "CoreUObject", 
             "Engine", 
-            "InputCore" 
+            "InputCore",
+            "RHI", 
+            "PixelShader"
         });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
