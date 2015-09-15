@@ -15,11 +15,17 @@
 #include "Runtime/Engine/Public/MaterialCompiler.h" //needed to avoid compile errors when including "materials.h"
 #include "Runtime/Engine/Classes/Materials/Material.h"
 
+#include "ShaderParameters.h"
+#include "ShaderParameterUtils.h"
+#include "GlobalShader.h"
+#include "MaterialShader.h"
+
 #include "ConstructorHelpers.h"
 
 //Plugin
 #include "SimpleMaterial.h"
 #include "Classes/SimpleSphere.h"
+#include "Classes/SimpleMaterialShader.h"
 
 
 //Std lib

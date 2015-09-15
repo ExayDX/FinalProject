@@ -3,24 +3,50 @@
 #include "UnrealProject.h"
 #include "UnrealProjectShadedSphere.h"
 
+#include <assert.h>
 
 // Sets default values
 AUnrealProjectShadedSphere::AUnrealProjectShadedSphere()
+{}
+
+AUnrealProjectShadedSphere::AUnrealProjectShadedSphere(const FObjectInitializer& objectInitializer) :
+	Super(objectInitializer)
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	UE_LOG(LogTemp, Warning, TEXT("Im a sphere!"));
+
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	// Create and position a mesh component so we can see our sphere in the world
+	m_sphereVisual = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisualRepresentation"));
+	m_sphereVisual->AttachTo(RootComponent);
+
 	
-	TArray<UStaticMeshComponent*> ActorComponents = TArray<UStaticMeshComponent*>();	
-	GetComponents<UStaticMeshComponent>(ActorComponents);
-	
-	for (int32 i = 0; i < ActorComponents.Num(); ++i)
+	UStaticMesh* meshToUse = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL,
+		TEXT("/Game/StarterContent/Shapes/Shape_Sphere")));
+
+	if (meshToUse)
 	{
-		UStaticMeshComponent* CurrentComponent = ActorComponents[i];
-		CurrentComponent->SetMaterial(0, MaterialApplied);
-		UMaterialInstanceDynamic* MID = CurrentComponent->CreateAndSetMaterialInstanceDynamic(0);
-		UTexture* CastedrenderTarget = Cast<UTexture>(RenderTarget); 
-		MID->SetTextureParameterValue("InputTexture", CastedrenderTarget); 
+		UE_LOG(LogTemp, Warning, TEXT("Mesh found!"));
+		m_sphereVisual->SetStaticMesh(meshToUse);
+		m_sphereVisual->SetRelativeLocation(FVector(0.0f, 0.0f, -40.0f));
+		m_sphereVisual->SetWorldScale3D(FVector(0.8f));
 	}
+
+	//assign material to mesh
+	UMaterial* material = Cast<UMaterial>(StaticLoadObject(UMaterial::StaticClass(), NULL,
+		TEXT("/Game/StarterContent/materials/M_Metal_Gold")));
+
+	if (material)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Material found!"));
+		m_sphereVisual->SetMaterial(0, material);
+	}
+
+	//enable ticking
+	PrimaryActorTick.bCanEverTick = true;
+
+	RenderTarget = NULL;
 
 }
 
@@ -50,6 +76,15 @@ void AUnrealProjectShadedSphere::Tick( float DeltaTime )
 	if (PixelShading != nullptr)
 	{
 		PixelShading->ExecutePixelShader(RenderTarget, nullptr, FColor(255, 0, 0, 255), 0);
+		FString texName("myTexture");
+
+		//make texture from render target
+		UTexture* tex = Cast<UTexture>(RenderTarget);
+		assert(tex);
+
+		//assign texture to sphere
+		UMaterialInstanceDynamic* MID = m_sphereVisual->CreateAndSetMaterialInstanceDynamic(0);
+		MID->SetTextureParameterValue("InputTexture", tex);
 	}
 
 
