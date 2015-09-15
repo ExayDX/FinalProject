@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.9",
+	"EngineAssociation": "{BCCCB40A-47A3-241B-7F06-758E11D193C8}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "UnrealProject",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
